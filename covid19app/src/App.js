@@ -52,7 +52,9 @@ const App = () => {
               </li>
             </ul>
             </nav>
-          <Switch>
+          <Switch>  
+            
+            
             <Route path="/global">
             <Global />
             </Route> 
@@ -62,6 +64,8 @@ const App = () => {
             <Route path="/provinsi">
             <Provinsi />
             </Route>
+
+            
           </Switch>
           </div>
         </Router>

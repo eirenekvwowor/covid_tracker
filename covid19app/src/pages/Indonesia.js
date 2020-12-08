@@ -1,4 +1,3 @@
-
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import CountUp from "react-countup";
@@ -7,6 +6,8 @@ const Indonesia = () =>{
     const[jum, setJum] = useState([])
     const[sembuh, setSembuh] = useState([])
     const[men, setMen] = useState([])
+
+
 
     useEffect(() => {
         axios
@@ -23,8 +24,9 @@ const Indonesia = () =>{
         
         <div className="card-containerr">
              <h1>Positif
-                <p><CountUp start={0} end={jum} delay={1.5} separator=",">
-                     {({ countUpRef }) => (<span ref={countUpRef} />)} 
+
+        <p><CountUp start={0} end={jum} delay={1.5} separator=",">
+        {({ countUpRef }) => (<span ref={countUpRef} />)} 
                      </CountUp> </p></h1>
                      </div>
 

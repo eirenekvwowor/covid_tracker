@@ -1,4 +1,4 @@
-App {
+.App {
   text-align: center;
 }
 
@@ -49,3 +49,88 @@ App {
 }
 
 
+.table {
+  text-align: center;
+  border: #000000;
+  border-style: solid;
+  padding: 2px;
+  background: #fafafa;
+}
+.box1 {
+  text-align: center;
+  border: #ffffff;
+  border-style: solid;
+  padding: 2px;
+  background: #c9c7c7f1;
+}
+.box2 {
+  text-align: center;
+  border: #ffffff;
+  border-style: solid;
+  padding: 2px;
+  background: #e09728;
+}
+.box3 {
+  text-align: center;
+  border: #ffffff;
+  border-style: solid;
+  padding: 2px;
+  background: #67d467;
+}
+.box4 {
+  text-align: center;
+  border: #ffffff;
+  border-style: solid;
+  padding: 2px;
+  background: #ff1111;
+}
+
+.card {
+
+}
+
+.card-containerr {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10;
+  background-color: rgb(255, 255, 255);
+  text-align: center ;
+  width: 270px;
+  height: 150px;
+}
+
+.card1-container {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10;
+  background-color:rgb(255, 255, 255);
+  text-align: center ;
+  width: 270px;
+  height: 150px;
+} 
+
+
+
+.card2-container {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10;
+  background-color:rgb(255, 255, 255);
+  text-align: center ;
+  width: 270px;
+  height: 150px;
+
+} 
+.center{
+  display: flex;
+  justify-content: center;
+}

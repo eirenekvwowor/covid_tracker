@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css'; 
 import NumberFormat from 'react-number-format';
 
-//card for component global & indonesia
+//bagian untuk global & indonesia
 const Card = ({nama, nilai}) =>{
     return (
         <div className="card-container">
